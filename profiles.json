@@ -4635,14 +4635,5 @@
       "foreground": "#dad9c7"
     }
   ],
-  "keybindings": [
-    {
-      "command": "closePane",
-      "keys": "ctrl+w"
-    },
-    {
-      "command": "newTab",
-      "keys": "ctrl+t"
-    }
-  ]
+  "keybindings": []
 }
