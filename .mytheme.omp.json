@@ -1,0 +1,90 @@
+{
+	"final_space": true,
+	"osc99": false,
+	"console_title": false,
+	"console_title_style": "",
+	"console_title_template": "",
+	"blocks": [
+		{
+			"type": "prompt",
+			"alignment": "left",
+			"horizontal_offset": 0,
+			"vertical_offset": 0,
+			"segments": [
+				{
+					"type": "root",
+					"style": "powerline",
+					"powerline_symbol": "\uE0B0",
+					"foreground": "#1F1F1F",
+					"background": "#E6DB74",
+					"properties": {
+						"root_icon": "\uF0E7"
+					}
+				},
+				{
+					"type": "path",
+					"style": "powerline",
+					"powerline_symbol": "",
+					"invert_powerline": false,
+					"foreground": "#1F1F1F",
+					"foreground_templates": null,
+					"background": "#66D9EF",
+					"background_templates": null,
+					"leading_diamond": "",
+					"trailing_diamond": "",
+					"properties": {
+						"folder_icon": "",
+						"folder_separator_icon": "  ",
+						"home_icon": "",
+						"style": "agnoster"
+					}
+				},
+				{
+					"type": "git",
+					"style": "powerline",
+					"powerline_symbol": "",
+					"invert_powerline": false,
+					"foreground": "#1F1F1F",
+					"foreground_templates": null,
+					"background": "#AE81FF",
+					"background_templates": null,
+					"properties": null
+				},
+				{
+					"type": "executiontime",
+					"style": "powerline",
+					"powerline_symbol": "\uE0B0",
+					"foreground": "#1F1F1F",
+					"background": "#A6E22E",
+					"properties": {
+						"threshold": 300,
+						"style": "austin",
+						"prefix": " \ufbab",
+						"sufix": ""
+					}
+				},
+				{
+					"type": "exit",
+					"style": "powerline",
+					"foreground": "#ffffff",
+					"background": "#00897b",
+					"powerline_symbol": "\uE0B0",
+					"properties": {
+						"display_exit_code": true,
+						"always_enabled": false,
+						"error_color": "#e91e63",
+						"color_background": true,
+						"prefix": " \uE23A"
+					}
+				}
+			]
+		},
+		{
+			"type": "newline",
+			"alignment": "",
+			"horizontal_offset": 0,
+			"vertical_offset": 0,
+			"segments": null
+		}
+	]
+}
