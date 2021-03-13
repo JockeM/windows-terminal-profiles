@@ -1,8 +1,9 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "alwaysShowTabs": true,
+    "alwaysShowTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
+	"disableAnimations": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     // Add custom keybindings to this array.
     // To unbind a key combination from your defaults.json, set the command to "unbound".
@@ -40,8 +41,16 @@
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "keys": "alt+shift+d"
-        }
+            "keys": "alt+d"
+        },
+		{ 
+			"command": "closePane",
+			"keys": "ctrl+w" 
+		},
+		{ 
+			"command": "newTab",
+			"keys": "ctrl+t" 
+		}
     ],
     "profiles": 
     {
