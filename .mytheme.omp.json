@@ -80,6 +80,22 @@
 			]
 		},
 		{
+			"type": "prompt",
+			"alignment": "right",
+			"horizontal_offset": 0,
+			"vertical_offset": 0,
+			"segments": [
+				{
+					"type": "time",
+					"style": "plain",
+					"foreground": "#E6DB74",
+					"properties": {
+						"time_format": "15:04:05"
+					}
+				}
+			]
+		},
+		{
 			"type": "newline",
 			"alignment": "",
 			"horizontal_offset": 0,

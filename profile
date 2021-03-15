@@ -7,3 +7,4 @@ Set-Alias np notepad++
 Set-Alias l Get-ChildItem -option AllScope
 Set-Alias ls Get-ChildItemColorFormatWide -option AllScope
 Set-Alias ex explorer
+Set-Alias new New-Item
